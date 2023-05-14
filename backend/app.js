@@ -13,7 +13,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://jeevandaanbackend.onrender.com"],
+    origin: ["http://localhost:3000", "https://jeevandaan.onrender.com"],
     credentials: true,
   })
 );
