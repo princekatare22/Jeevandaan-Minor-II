@@ -33,7 +33,7 @@ app.use(
   })
 );
 mongoose.connect(
-  "mongodb+srv://princekatare22:prince@2207@cluster0.ztt9urk.mongodb.net/?retryWrites=true&w=majority",
+  "mongodb+srv://esha272103:cg7nY6um50PEzrtW@cluster0.kmtoaw8.mongodb.net/",
   { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
   (e) => {
     console.log(e ? e : "Connected successfully to database");
